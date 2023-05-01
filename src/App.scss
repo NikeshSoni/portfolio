@@ -1,0 +1,109 @@
+
+body{
+    overflow-x: hidden;
+    font-family:  inherit;
+    p{
+        margin: 0 !important;
+    }
+}
+
+.navigation{
+    height: 60px;
+    align-items: center;
+
+   
+    .logo{
+        color: tomato;
+    }
+    
+}
+
+.my-img{
+    height: 300px;
+   
+}
+
+.web-btn{
+    padding: 10px 15px;
+    border: navajowhite;
+    outline: none;
+    background: aqua;
+    border-radius: 10px;
+}
+
+.page-links{
+    &:hover {
+        transition: .5s;
+        color: gray !important;
+    } 
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.js-background{
+    background: linear-gradient(#e7d97f, #fff);
+}
+
+
+.skills-img{
+    width: 80%;
+    min-height: 100px;
+    min-width: 173px;
+
+    @media (min-width:778px) {
+         width: 50%;
+    }
+}
+
+
+.main-data{
+    width: 90%;
+    transition: ease-in-out;
+
+
+    &:hover{
+        width: 100%;
+        transition: .5s;
+    }
+}
+
+
+
+//  projext section start here
+
+.comman-width-height{
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.headding{
+    font-weight: 700;
+}
+
+.projects-btn{
+    padding: 6px 22px;
+    border: 2px solid #3c67e3;
+    background: #000;
+    border-radius: 10px;
+}
+
+
+//  footer 
+
+.social-meadia{
+    min-width:24px;
+    min-height: 24px;
+}
+
+.whats-app {
+    width: 29px;
+    height: 29px;
+}
