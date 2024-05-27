@@ -27,8 +27,7 @@ const Header = () => {
         //     </nav>
         // </header>
 
-            <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-                
+            <nav data-aos="fade-right" className="navbar navbar-expand-lg  navbar-light bg-light">
                 <div className="container-fluid container justify-content-between">
                     <a className="navbar-brand logo" href="#">Nk</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

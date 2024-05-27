@@ -44,13 +44,12 @@ const Skills = () => {
                 </h2>
             </div>
 
-            <div className=" mx-auto justify-content-center row gap-4">
-
+            <div  className=" mx-auto justify-content-center row gap-4">
 
                 {skillData.map((my_skills) => {
                     return(
                             
-                     <div className='my-skiil rounded col-9 col-md-5 col-lg-4  justify-content-center'>
+                     <div data-aos="fade-down-right" className='my-skiil rounded col-9 col-md-5 col-lg-4  justify-content-center'>
                             <div className='p-5 main-data background-comman'>
                                 <div className='d-flex comman-image justify-content-center gap-3'>
                                     <img   className='img-fluid skills-img' src={my_skills.image} />
