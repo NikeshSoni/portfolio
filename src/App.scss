@@ -125,6 +125,10 @@ a{
 
 .myIntro{
     position: absolute;
-    top: 40%;
-    right: -15%;
+    top: 50%;
+    /* right: -15%; */
+    left: 50%;
+    // transition: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 999;
 }
