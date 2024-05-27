@@ -20,6 +20,9 @@ const Header = () => {
                             <li className="me-4 fs-6 list-unstyled">
                                 <a className="text-dark page-links" href="#">Projects</a>
                             </li>
+                            <li className="me-4 fs-6 list-unstyled">
+                                <a className="text-dark page-links" href="#">Education</a>
+                            </li>
                         </ul>
                     </nav>
                 </header>

@@ -19,7 +19,7 @@ body{
 }
 
 .my-img{
-    height: 300px;
+    // height: 300px;
    
 }
 
@@ -95,7 +95,6 @@ a{
     border-radius: 10px;
 }
 
-
 //  footer 
 
 .social-meadia{
@@ -106,4 +105,26 @@ a{
 .whats-app {
     width: 29px;
     height: 29px;
+}
+
+
+.commanBg{
+    background-color: #ecefff;
+    width: 50%;
+    height: 100%;
+}
+
+.mainWapper{
+    height: 70vh;
+}
+
+.homeWidth{
+    width: 50%;
+    height: 100%;
+}
+
+.myIntro{
+    position: absolute;
+    top: 40%;
+    right: -15%;
 }
