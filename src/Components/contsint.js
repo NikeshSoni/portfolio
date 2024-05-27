@@ -20,7 +20,7 @@ const Contsint =() => {
                         <h5 className=''>
                             Hey I am Here 
                         </h5>
-                        <h2 className=''>
+                       <h2 className=''>
                             Nikesh Rajbhar  
                         </h2>
 
