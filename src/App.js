@@ -5,9 +5,9 @@ import './App.scss';
 import Header from './Components/header';
 import Contsint from './Components/contsint';
 import Skills from './Components/skill';
-import Project from './Components/project'
-
-import ClipLoader from "react-spinners/ClipLoader";
+import Project from './Components/project';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 function App() {
 
@@ -21,18 +21,13 @@ function App() {
     // },[])
 
   return (
-    <div className="App ">
-      {/* {loading ? <ClipLoader  color={'#1ac1d1'}  loading={loading}  size={150} aria-label="Loading Spinner" data-testid="loader" /> 
-        : */}
+    <div className="App "> 
         <div>
-                <Header />
-                <Contsint />
-                <Skills /> 
-                <Project />
+            <Header />
+            <Contsint />
+            <Skills /> 
+            <Project />
         </div>
-       
-      {/* } */}
-        
     </div>
   );
 }

@@ -13,19 +13,19 @@ const Contsint =() => {
     return(
         <>
 
-            <div className="mainWapper shadow-sm mt-4 container d-flex position-relative">
+            <div data-aos="flip-left" className="mainWapper shadow-sm mt-4 container d-flex  position-relative">
+                    <div className='myIntro text-center'>
+                            <h5 className=''>
+                                Hey I am Here 
+                            </h5>
+                        <h2 className=''>
+                                Nikesh Rajbhar  
+                            </h2>
+
+                            <h5>I am Web <a href="#">Developer</a></h5>
+                        </div>
                 <div className="commanBg position-relative">
 
-                    <div className='myIntro text-center'>
-                        <h5 className=''>
-                            Hey I am Here 
-                        </h5>
-                        <h2 className=''>
-                            Nikesh Rajbhar  
-                        </h2>
-
-                        <h5>I am Web <a href="#">Developer</a></h5>
-                    </div>
                 </div>
                
                 <div className="bg-white homeWidth">
@@ -46,11 +46,11 @@ const Contsint =() => {
             </div> */}
 
 
-            <div className="about-me row mx-auto about-me py-4 justify-content-center rounded container my-5">
-                    <div className="col-8 col-md-5 mb-4 mb-md-0 text-center">
+            <div data-aos="flip-left" className="about-me  row mx-auto about-me py-4 justify-content-center rounded container my-5">
+                    <div className="col-11 col-md-5 mb-4 mb-md-0 text-center">
                         <img  className='img-fluid my-img comman-radius' src={iNikesh} />
                     </div>
-                    <div className="col-8 col-md-6 ">
+                    <div className="col-11 col-md-6 ">
                         <h2 className='mb-3 comman-info'>
                             About Me
                         </h2>

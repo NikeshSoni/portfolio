@@ -78,12 +78,12 @@ let myNumber = 9152910443;
             </h2>
         </div>
 
-        <div className='row gap-3 justify-content-center my-4'>
+        <div  className='row gap-3 justify-content-center my-4'>
 
 
             {projects.map( (items) => {
                 return(
-                       <div className='col-10 mt-3 col-md-5 col-lg-3 center-all-data shadow-lg p-3'>
+                       <div data-aos="fade-down-left" className='col-10 mt-3 col-md-5 col-lg-3 center-all-data shadow-lg p-3'>
                             <a href={items.links}>
                                 <img className='img-fluid comman-width-height' src={items.img} />
                             </a>
