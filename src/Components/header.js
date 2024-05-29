@@ -12,7 +12,7 @@ const Header = () => {
         
                         <ul className="d-flex gap-4 m-0 justify-content-end col-8">
                             <li className="me-4 fs-6 list-unstyled">
-                                <a className="text-dark page-links" href="#">About Me</a>
+                                <a className="text-dark page-links" href="#">About</a>
                             </li>
                             <li className="me-4 fs-6 list-unstyled">
                                 <a className="text-dark page-links" href="#">skill</a>

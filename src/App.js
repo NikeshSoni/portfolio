@@ -13,17 +13,17 @@ function App() {
 
     const [loading , setLoading] =  useState(false);
 
-    useEffect( () => {
-       setLoading(true)
-       setTimeout( () => {
-          setLoading(false)
-       },5000)
-    },[])
+    // useEffect( () => {
+    //    setLoading(true)
+    //    setTimeout( () => {
+    //       setLoading(false)
+    //    },5000)
+    // },[])
 
   return (
     <div className="App ">
-      {loading ? <ClipLoader  color={'#1ac1d1'}  loading={loading}  size={150} aria-label="Loading Spinner" data-testid="loader" /> 
-        :
+      {/* {loading ? <ClipLoader  color={'#1ac1d1'}  loading={loading}  size={150} aria-label="Loading Spinner" data-testid="loader" /> 
+        : */}
         <div>
                 <Header />
                 <Contsint />
@@ -31,7 +31,7 @@ function App() {
                 <Project />
         </div>
        
-      }
+      {/* } */}
         
     </div>
   );
