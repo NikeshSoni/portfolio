@@ -6,30 +6,25 @@ import react from '../Images/React.png'
 
 const Skills = () => {
 
-    let html_image = html_work;
-    let script = bootstrap;
-    let React_img = react;
-    let Javascript = JAVASCRIPT;
-
     const skillData = [
         {
-            image:html_image,
+            image:html_work,
             headLine:'HTML & CSS',
             para:'Able To create Reaponsive web Pages'
         },
         {
-            image:script,
+            image:bootstrap,
             headLine:'bootstrap & SCSS',
             para:'Using Css library and Scss Style'
             
         },
         {
-            image:React_img,
+            image: react,
             headLine:'React Js',
             para:'Able To create wepsite On using React.js'
         },
         {
-            image:Javascript,
+            image:JAVASCRIPT,
             headLine:'JAVASCRIPT',
             para:'create A webpage Using Javascript & ECMA 6'
             
@@ -38,7 +33,7 @@ const Skills = () => {
 
     return(
         <>
-            <div className="my-5 text-center">
+            <div className="my-5 text-center" id="skill">
                 <h2  className='fw-bolder'>
                    Skills
                 </h2>

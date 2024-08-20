@@ -6,6 +6,8 @@ import Header from './Components/header';
 import Contsint from './Components/contsint';
 import Skills from './Components/skill';
 import Project from './Components/project';
+import Contact from './Components/Contact';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -35,6 +37,7 @@ function App() {
                 <Contsint />
                 <Skills /> 
                 <Project />
+                {/* <Contact /> */}
         </div>
        
       {/* } */}
