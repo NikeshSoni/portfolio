@@ -2,7 +2,7 @@ import iNikesh from '../Images/iNikesh.jpg';
 import Store from '../Store/Store';
 
 const Data = {
-    lives:'I am from India, lives in Mumbai. Passionate about Front End Developer, Especially in User Interface.',
+    lives:'I am from India, lives in Mumbai. Passionate about Full Stack Developer, Especially in User Interface.',
 }
 
 const Contsint =() => {
@@ -64,7 +64,7 @@ const Contsint =() => {
                             <div className='mt-4 '>
                                 <div className='mb-4'>
                                     <h4>
-                                        <a className='me-2' href="#">11</a> 
+                                        <a className='me-2' href="#">7</a> 
                                         Projects Complete
                                     </h4>
                                 </div>

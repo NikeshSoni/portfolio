@@ -13,13 +13,8 @@ const Header = () => {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
-<<<<<<< HEAD
-                            <li className="nav-item">
-                                <a className="nav-link" href="#about">About</a>
-=======
                            <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
->>>>>>> e0ba577776ab7406e3c162170ae1d6b92956cc9d
+                                <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#projects">Projects</a>
@@ -34,13 +29,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-<<<<<<< HEAD
-    )
-
-}
-=======
          )
       }
->>>>>>> e0ba577776ab7406e3c162170ae1d6b92956cc9d
 
 export default Header;

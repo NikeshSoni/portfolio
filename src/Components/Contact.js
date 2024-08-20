@@ -27,7 +27,7 @@ function Contact() {
     };
 
     return (
-        <div className="container mx-auto shadow p-3 mt-4">
+        <div className="container mx-auto shadow p-3 mt-4" id="contact">
 
             <div className="text-center mt-5">
                 <h3>
