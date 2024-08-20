@@ -28,14 +28,6 @@ function Contact() {
 
     return (
         <div className="container mx-auto shadow p-3 mt-4">
-            {/* <form onSubmit={onSubmit}>
-                <input type="text" name="name" required />
-                <input type="email" name="email" required />
-                <textarea name="message" required></textarea>
-
-                <button type="submit">Submit Form</button>
-
-            </form> */}
 
             <div className="text-center mt-5">
                 <h3>
