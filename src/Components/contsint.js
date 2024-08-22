@@ -1,19 +1,14 @@
-
-import Nikki from '../Images/my_img.jpeg';
-import Nikesh from '../Images/nikki.jpeg';
-import home from '../Images/homeImage.jpg'
-import iNikesh from '../Images/iNikesh.jpg'
-import Store from '../Store/Store'
+import iNikesh from '../Images/iNikesh.jpg';
+import Store from '../Store/Store';
 
 const Data = {
-    lives:'I am from India, lives in Mumbai. Passionate about Front End Developer, Especially in User Interface.',
+    lives:'I am from India, lives in Mumbai. Passionate about Full Stack Developer, Especially in User Interface.',
 }
 
 const Contsint =() => {
     return(
         <>
-
-            <div data-aos="flip-left" className="mainWapper shadow-sm mt-4 container d-flex  position-relative">
+            <div data-aos="flip-left" id='#home' className="mainWapper shadow-sm mt-4 container d-flex  position-relative">
                     <div className='myIntro text-center'>
                             <h5 className=''>
                                 Hey I am Here 
@@ -33,20 +28,7 @@ const Contsint =() => {
                 </div>
             </div>
 
-            {/* <div className="mt-5 text-center"> 
-                <h1 className="mb-4 heading-fonts">
-                    Hii! I am Nikesh Rajbhar
-                </h1>
-
-                <button className="web-btn">
-                     <a className="text-dark" href="#">
-                         Web Developer
-                     </a>
-                </button>
-            </div> */}
-
-
-            <div data-aos="flip-left" className="about-me  row mx-auto about-me py-4 justify-content-center rounded container my-5">
+            <div data-aos="flip-left" id='about' className="about-me  row mx-auto about-me py-4 justify-content-center rounded container my-5">
                     <div className="col-11 col-md-5 mb-4 mb-md-0 text-center">
                         <img  className='img-fluid my-img comman-radius' src={iNikesh} />
                     </div>
@@ -82,13 +64,15 @@ const Contsint =() => {
                             <div className='mt-4 '>
                                 <div className='mb-4'>
                                     <h4>
-                                        <a className='me-2' href="#">11</a> 
+                                        <a className='me-2' href="#">7</a> 
                                         Projects Complete
                                     </h4>
                                 </div>
                                 <div>
                                     <button type="button" class="btn btn-primary">
-                                        Downloan CV
+                                        {/* <a href=''> */}
+                                              Downloan CV
+                                        {/* </a> */}
                                     </button>
                                 </div>
                             </div>
