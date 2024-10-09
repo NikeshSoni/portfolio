@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d55d0fc0.css",
-    "main.js": "/portfolio/static/js/main.4848bfa7.js",
+    "main.css": "/portfolio/static/css/main.60aaf604.css",
+    "main.js": "/portfolio/static/js/main.3773e51b.js",
     "static/js/787.39bb0775.chunk.js": "/portfolio/static/js/787.39bb0775.chunk.js",
-    "static/media/nikki.jpeg": "/portfolio/static/media/nikki.3ee2591e3a902f92e1f7.jpeg",
     "static/media/iNikesh.jpg": "/portfolio/static/media/iNikesh.bcb9d98a94943e484f60.jpg",
     "static/media/Html_css-main.png": "/portfolio/static/media/Html_css-main.4b24e42ad3d2f35a12b0.png",
     "static/media/revolt-logo.png": "/portfolio/static/media/revolt-logo.fc247168b3c92afb2801.png",
-    "static/media/my_img.jpeg": "/portfolio/static/media/my_img.3579f8a1528f30b02395.jpeg",
     "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.3c4e1a5d3a149087b144.png",
-    "static/media/homeImage.jpg": "/portfolio/static/media/homeImage.a24d06d31902d78b4617.jpg",
     "static/media/Logo_White.webp": "/portfolio/static/media/Logo_White.0e88830ade911320874e.webp",
     "static/media/main-logo.webp": "/portfolio/static/media/main-logo.17b8d172bb784ea0dd3f.webp",
     "static/media/insta.webp": "/portfolio/static/media/insta.af3e4eb1468667ae0d38.webp",
     "index.html": "/portfolio/index.html",
     "static/media/fb.webp": "/portfolio/static/media/fb.eee78784ccc309a5314f.webp",
-    "main.d55d0fc0.css.map": "/portfolio/static/css/main.d55d0fc0.css.map",
-    "main.4848bfa7.js.map": "/portfolio/static/js/main.4848bfa7.js.map",
+    "main.60aaf604.css.map": "/portfolio/static/css/main.60aaf604.css.map",
+    "main.3773e51b.js.map": "/portfolio/static/js/main.3773e51b.js.map",
     "787.39bb0775.chunk.js.map": "/portfolio/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55d0fc0.css",
-    "static/js/main.4848bfa7.js"
+    "static/css/main.60aaf604.css",
+    "static/js/main.3773e51b.js"
   ]
 }
